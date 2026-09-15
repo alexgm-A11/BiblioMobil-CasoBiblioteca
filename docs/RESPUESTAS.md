@@ -17,6 +17,6 @@ Con `factory`, cada ViewModel recibiría una instancia distinta del repositorio 
 ```text
 > Task :shared:testAndroidHostTest
 
-31 tests completed, 0 failed
+39 tests completed, 0 failed
 BUILD SUCCESSFUL
 ```
