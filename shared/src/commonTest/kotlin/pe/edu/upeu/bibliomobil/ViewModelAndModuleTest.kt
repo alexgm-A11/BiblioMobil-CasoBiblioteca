@@ -12,6 +12,7 @@ import pe.edu.upeu.bibliomobil.domain.repository.LibroRepository
 import pe.edu.upeu.bibliomobil.domain.usecase.*
 import pe.edu.upeu.bibliomobil.presentation.libro.*
 
+@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class LibroViewModelTest {
     private val dispatcher = UnconfinedTestDispatcher()
     @BeforeTest fun preparar() { Dispatchers.setMain(dispatcher) }

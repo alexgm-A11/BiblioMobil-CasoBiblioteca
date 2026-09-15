@@ -12,5 +12,7 @@ Aplicación Kotlin Multiplatform independiente para administrar el catálogo y l
 ## Verificación
 
 ```powershell
-.\gradlew.bat :shared:testAndroidHostTest :androidApp:assembleDebug
+.\gradlew.bat :shared:testAndroidHostTest :androidApp:assembleDebug :shared:compileKotlinIosSimulatorArm64
 ```
+
+Resultado verificado: 39 pruebas, 0 fallos y compilación satisfactoria para Android e iOS Simulator ARM64.

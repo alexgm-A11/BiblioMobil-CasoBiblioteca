@@ -20,3 +20,5 @@ Con `factory`, cada ViewModel recibiría una instancia distinta del repositorio 
 39 tests completed, 0 failed
 BUILD SUCCESSFUL
 ```
+
+La verificación final también ejecutó correctamente `:androidApp:assembleDebug` y `:shared:compileKotlinIosSimulatorArm64`.
