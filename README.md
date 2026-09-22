@@ -2,6 +2,8 @@
 
 Aplicación Kotlin Multiplatform independiente para administrar el catálogo y los lectores de una biblioteca universitaria.
 
+El módulo de préstamos permite seleccionar un libro y un lector registrados, fijar un plazo de 1 a 7 días y consultar debajo los préstamos creados. No permite prestar más ejemplares simultáneos que los registrados en el libro. Los datos se mantienen en memoria durante la ejecución de la aplicación.
+
 ## Arquitectura
 
 - Clean Architecture: `domain`, `data`, `presentation`.

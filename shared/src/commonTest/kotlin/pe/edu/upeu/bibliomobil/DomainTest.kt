@@ -14,7 +14,7 @@ class LibroTest{
 class DetallePrestamoTest{
  private val libro=Libro(1,"T","A",2000,3)
  @Test fun rechazaCeroDias(){assertFails{DetallePrestamo(libro,0)}}
- @Test fun rechazaDieciseisDias(){assertFails{DetallePrestamo(libro,16)}}
- @Test fun aceptaQuinceDias(){assertEquals(15,DetallePrestamo(libro,15).dias)}
+ @Test fun rechazaOchoDias(){assertFails{DetallePrestamo(libro,8)}}
+ @Test fun aceptaSieteDias(){assertEquals(7,DetallePrestamo(libro,7).dias)}
  @Test fun multaCuatroDias(){assertEquals(6.0,DetallePrestamo(libro,5).multaPorRetraso(4))}
 }
